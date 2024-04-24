@@ -30,6 +30,6 @@ docker-compose up -d
 
 
 Write-Host "El script se ejecutó con éxito. ¡¡ATENCIÓN!! La aplicación puede tardar unos minutos en levantarse."
-Write-Host "La URL de la aplicación es: https://safewalletlocalfront.vercel.app/"
+echo "Recuerda seguir las instrucciones para levantar el frontend y poder utilizar safewallet"
 Write-Host "Usuario admin: admin@admin.com | Contraseña: admin | CBU: 5069815974733830697771"
 Write-Host "Usuario user: user@user.com | Contraseña: user | CBU: 6513591138974673569357"
