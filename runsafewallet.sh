@@ -17,7 +17,8 @@ echo "😎😎-------Imagenes descargadas----------😎😎"
 echo "Ya tenemos las imagenes descargadas, ahora vamos a ejecutar el script para hacer el despliegue..."
 echo "Pulsa enter para continuar..."
 read ENTER
-echo "Si el script no funciona ejecutar manualmente el comando: sudo chmod 777 docker-compose.yml y luego docker-compose up -d "
+echo "Descargando docker-compose.yml..."
+curl -fsSL -o docker-compose.yml https://raw.githubusercontent.com/MaxiCattaneoCvetic/runsafewallet/main/docker-compose.yml
 echo "Ejecutando el script....."
 docker-compose up -d
 echo "El script se ejecuto con exito ¡¡ATENCIÓN!!! la aplicación puede tardar unos minutos en levantarse.."
