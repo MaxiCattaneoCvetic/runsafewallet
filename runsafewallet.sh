@@ -22,7 +22,7 @@ curl -fsSL -o docker-compose.yml https://raw.githubusercontent.com/MaxiCattaneoC
 echo "Ejecutando el script....."
 docker-compose up -d
 echo "El script se ejecuto con exito ¡¡ATENCIÓN!!! la aplicación puede tardar unos minutos en levantarse.."
-echo "La URL de la aplicación: ------> https://safewalletlocalfront.vercel.app/"
+echo "Recuerda seguir las instrucciones para levantar el frontend y poder utilizar safewallet"
 echo "Usuario admin: admin@admin.com Password: admin | CBU: 5069815974733830697771"
 echo "Usuario user: user@user.com Password: user | CBU: 6513591138974673569357 "
 
